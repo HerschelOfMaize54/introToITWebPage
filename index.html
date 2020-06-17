@@ -1,241 +1,240 @@
 <!DOCTYPE HTML>
-    <html>
-        <head>
-            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
-            <style>
-            	#wrapper01{
-                background-color:chocolate;
-                height:500px;
-                width:900px;
-                margin:auto;
-		padding:10px;
-            	}
-		#myPic{
-                height:200px;
-                width:200px;
-                float:left;
-                padding:25px;
-            	}
-            	#subText{
-                float:left;
-                padding:10px;
-                font-size:10px;
-            	}
-		#headerText{
-                float:left;
-                padding:25px;
-                font-size:20px;
-            	}
-		#basicBackground{
-                background-color:crimson;
-                height:350px;
-                width:900px;
-                margin:auto;
-		padding:20px;
-            	}
-		#basicBackgroundText{
-		padding:25px;
-                font-size:20px;
-		}
-		#iT{
-                background-color:darkcyan;
-                height:900px;
-                width:900px;
-                margin:auto;
-		padding:30px;
-            	}
-		#iTText{
-		padding:25px;
-                font-size:20px;
-		}
-		#idealJob{
-                background-color:darkorange;
-                height:850px;
-                width:900px;
-                margin:auto;
-		padding:40px;
-            	}
-		#idealJobText{
-		padding:25px;
-                font-size:20px;
-		}
-		#personalProfile{
-                background-color:gold;
-                height:700px;
-                width:900px;
-                margin:auto;
-		padding:50px;
-            	}
-		#personalProfileText{
-		padding:25px;
-                font-size:20px;
-		}
-		#projectIdea{
-                background-color:mediumseagreen;
-                height:2050px;
-                width:900px;
-                margin:auto;
-		padding:60px;
-            	}
-		#projectIdeaText{
-		padding:25px;
-                font-size:20px;
-		}
-            	</style>
-            	<body>
-		<div id = wrapper01>
-			<IMG id=myPic src="data:image/jpeg;base64,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">
-			</IMG><br>
-			<div id=subText>
-			I really like this picture of me. DON'T JUDGE<p>
-			</div>
-			<div id=headerText>
-			PERSONAL INFORMATION<br>
-			Name: Sean William Delany<br>
-			Student Number: S3863566<br>
-			Email Address: s3863566@student.rmit.edu.au<p>
-					
-			FUN FACT<br>
-			When I played beach volleyball I was called the phantom of the opera because I would always get sand on half my face.<p>
-			</div>
-		</div>	
-		<div id=basicBackground>
-			<div id=basicBackgroundText>		
-				BASIC BACKGROUND<p>
-					I’m Sean as simple as it sounds, born and raised in Melbourne and have basically been raised off the amazing food of 
-					Melbourne cafes, restaurants and bars. My parents were born and raised here as well and it eventually goes all the way back to Ireland, Scotland, and France.<br> 
-					I’ve previously studied a Bachelor of Science / Science Education through La Trobe University and have taught for three years in different schools. 
-					After noticing issues that weren’t going to change themselves any time soon I decided to find myself a job with a lower workload and get back to my studies, 
-					where I could learn I.T. Then try and make a difference to those issues that are ever present in teaching.
-					I’m a simple monolingual only speaking english. When I recently went travelling for a few months I thought that would be at a major disadvantage. 
-					But after travelling and getting a quick experience of some of Europe, I can say that it isn’t an issue and that there will always be a lot of people 
-					out there who are always willing to help you out however they can.<p>
-					</div>
-				</div>
-				<div id=iT>
-					<div id=iTText>
-					IT<p>
-					Why sacrifice my life to IT? My friends sometimes ask.<br>
-					Over time I have been able to learn what different programming languages are able to do and what they are capable of. 
-					Gaming development, data storage, analysis programs, communication programs and abilities have shown amazing changes to the world. 
-					When I realised that anyone is able to learn how to create these programs I’ve wanted to get myself a better understanding. 
-					Ideas have slowly started coming to me about how to make the things I enjoy better and in order to make those ideas a reality I need and want to learn these new ways of thinking and develop my skills.<p>
-					My first real exposure to any form of coding or programming didn’t occur until I was taking my final year of university. 
-					When I realised what MATLAB was capable of it relieved so much stress in regards to learning the material. It calculated 
-					answers running through several functions and gave diagram outputs that allowed the materials to be so easily understood.
-					After that i started experimenting with what i could do instantly shortening code and generating text files with my functions so that no script was too crowded. 
-					A few colleagues noticed and started critiquing my methods in what works better with file names. After mentioning that I was a complete novice they said that they 
-					wouldn’t have believed it after seeing my work. 
-					So I decided to put more time into coding and programming when I could. Since then I haven't been as successful as I keep making excuses, but when a friend has a difficult 
-					problem I always help them out and try to learn as much as I can at the same time.<p>
-					I haven’t worked in an IT related role.<br> 
-					Over the past 3-4 years I have gone through different online modules that teach various parts of different coding languages. I found it really helpful in just learning the 
-					language as well as learning how different operations can be used together and produce functions that greatly simplify processes that I have found quite difficult while studying Maths and Physics.<p>
-					After previously studying at La Trobe. Although it was a great experience it was clear that the university wouldn’t change quickly enough in such a way to let me feel like the student mattered.
-					My friends and other people have shared their RMIT experiences as I have shared my La Trobe experiences. I noticed that the resources that had been lost or weren’t present at La Trobe are there at RMIT. 
-					If I struggle there are resources and people that can be reached to and they can help and that lets me feel safer and grounded while doing this degree.<p>
-					After hearing all of those great experiences from the people who have studied at LaTrobe I don’t just expect to learn the basics that make up the course in the degree. 
-					I also expect to learn the ways of thinking and taking on a new mindset that helps making coding and programming a better experience.<p>
-					</div>
-				</div>
-				<div id=idealJob>
-					<div id=idealJobText>
-					IDEAL JOB<p>
-					<a href='https://www.seek.com.au/job/50024025?type=standout#searchRequestToken=36c664c7-c37b-4641-a4f7-e9f2003035fd'>Ideal job within the IT industry</a><p>
-					<a href='https://drive.google.com/file/d/1iJpyi93UXsYWWIg-rPJd2md3s8_QOJFB/view?usp=sharing'>pic1</a><p>
-					<a href='https://drive.google.com/file/d/1Odrzx93AEJVrMzrjXZbpx4V7yiCX18aT/view?usp=sharing'>pic2</a><p>
-					The job role outlines the development of applications and software using previous information and data to create a better hospital experience as well as a better environment for staff and patients. 
-					This also involves updating and improving software when new issues or feedback arise. The further analysis of data and improvement will hopefully lead to a system allowing patients to feel better 
-					looked after and easier treatments to occur to them.<p>
-					Aside from the experience required experience of 5 years. There are also many coding languages that need to be known, as well as database query languages. These are HTML, CSS, SQL, 
-					as well as experience microsoft systems and C#.<br> 
-					From there further experience and knowledge is required in regards to extending the generated software out to use on other devices. This will include experience in app development 
-					and its associated framework languages as well development and knowledge in networking and communication programming methods.<p>
-					At the moment I have minimal experience in the development of websites and database query software such as SQL. In regards to dealing with external clients and other teams i have a 
-					lot of experience in ensuring information is clearly communicated leading to minimal misinterpretation as well as development of clear lines of communication creating a more general openness within a 
-					team environment.<p>
-					In order to get these skills one big step to acquiring these skills is to complete this degree as well as selecting the appropriate streams leading to developing skills in the correct areas. 
-					I will also be able to develop my own ideas over time and generate them to be viewed in different formats, mainly referring to app development at this current stage. 
-					Once I am at a level in which I am able to start working in some branch of the I.T. Industry the next step is to find a job role in which I am able to apply my skills and ensure 
-					that they are acceptable within a workplace environment. From there I will be able to develop and hopefully seek new opportunities that allow me to fill in any gaps of knowledge 
-					that are still present before moving to a position or job role similar to the one listed above.<p>
-					</div>
-				</div>
-				<div id=personalProfile>
-					<div id=personalProfileText>
-					PERSONAL PROFILE<p>
-					<a href='https://www.16personalities.com/free-personality-test'>Myers-Briggs Test</a><p>
-					<a href='https://www.16personalities.com/infp-personality'>Myers-Briggs Personality Type Result</a><p>
-					<a href='https://www.how-to-study.com/learning-style-assessment/'>Learning Style Test</a><p>
-					<a href='https://www.how-to-study.com/study-skills-articles/visual-learner.asp'>Learing Style Test Result</a><p>
-					<a href='https://www.mindtools.com/pages/article/creativity-quiz.htm'>Creativity Test</a><p>
-					The Myers-Briggs Test and the Mindtools creativity tests show similar features when it comes to attitudes, behaviours and outlooks towards the workplace. 
-					The creative mindset has a mind that wants to view current tools in a new light and determine new approaches in regards to how they can be used. Want to find the cause of issues and 
-					develop a solution to the entire issue, not just the quick fix solution. 
-					The mediator personality leans itself towards ensuring cohesiveness within a team and supporting team members in the best ways possible from a team member or managerial position. It 
-					wants to avoid high pressure situation and devote itself to larger projects where coworkers are able to discuss issues and ideas face to face.<p> 
-					The visual learning style involves the use of generating diagrams and listing the information in ways that it can be easily referenced and referred to other parts of noted materials 
-					through highlighting or making it part of the diagrams.<p>
-					These traits show attributes for a someone in the workplace who is able to understand others as well as interpret their issues and find solutions and develop a stronger, calmer workplace. 
-					With a worker that is able to commit to a task while keeping their eye on the bigger picture of the overall project. In addition to making notes and processing information in a visual 
-					fashion, this allows for different methods of interpreting information as well as presenting and explaining information.<p>
-					</div>
-				</div>
-				<div id=projectIdea>
-					<div id=projectIdeaText>
-					PROJECT IDEA<p>
-					The project is an app or program for D&D (Dungeons and Dragons) characters and will keep track of information about a character. There are several areas of characters in this RPG (Role Playing Game). 
-					These areas involve the characters race/species, class/chosen role in the team, basic statistics, physical fighting abilities, spell based fighting abilities. In addition to this there are also 
-					special tool based skills and the items a character carries and uses.<br> 
-					Keeping track is difficult sometimes and adapting this to the way people view comments on forums has the ability to make it much easier to go through their own character materials and information.<p>
-					I’ve been playing this game for sometime and have been introduced to a large community that really enjoys this RPG based and all that it has to offer. 
-					When you generate your own character there is a lot of information that a new player has to go through. To start at the bare minimum one needs to understand their characters race specifics, class 
-					specifics, special skills in various checks and with different tools. There are also different languages that your character may know as well as spells, and other skills and abilities their 
-					character will gain as they level up during the RPG campaign.<br> 
-					Also thanks to everyone having their own jobs scheduling issues it’s normal for groups to not meet up for weeks or months at a time. This normally means losing character materials or just 
-					simply forgetting what had previously occurred.<p>
-					The D&D application will allow players to store multiple characters that are used across various campaigns. These profiles will be accessible at any time allowing players to change their 
-					characters whenever needed.<br> 
-					The main appeal of having all the character information in one place and being able to store any information about a character in an easily accessible format is that sessions for any 
-					campaign are prone to having large time gaps between them.<br> 
-					Many people struggle with organisation of their own materials and keeping track of them due to people using this as an outlet and a chance to relax and enjoy something outside of work. 
-					The application would allow the full development of a character profile that contains all necessary information, the ability to alter it when necessary and taking notes where the player 
-					is able to possibly customise them as they see fit.<br>
-					The different areas would include a list of basic character statistics, melee combat options, spell based options, spell slots, inventory, abilities, traits, notes, day to day requirements 
-					and various rest/reset options.<br>
-					The statistics component would show the scores out of 20 in 6 areas of character skills as well as how that affects associated checks and saves made through the game. This will show 
-					health points, defensive scores, healing dice, level, speed. The extension of this will also show values that are added to specific checks in given situations.<br>
-					The traits and abilities characters gain depending on their class, level and race will also automatically be added to a specific part of the application and will make the appropriate 
-					updates to other parts of the character profile when necessary. Due to the complexities this RPG can present an automatic update and log of changes across levels allows for a simpler method of 
-					keeping track of what a character is capable of as well as what and why these changes have occurred.<br> 
-					The spells component requires a complete listing of spells and then a refined selection depending on the class or race of the character. From there a player can select which spells 
-					they have prepared and the application will advise when they may be changed. In addition to this when a player casts a spell the application will advise possible options for casting 
-					as well as any other potential selections that can be made.<br>
-					This assists in moving through these phases of a session in a simple step by step process without needing an encyclopedic memory of what you can do in the session. 
-					The melee and inventory components can be considered very similar in nature. They will both show lists of what is available with additional markings showing what you character is 
-					better used to. The inventory component will have the same listings and the player will be able to select them, these items will be placed wherever necessary in the application again 
-					allowing for an ease of playing sessions. Once again these components allow for an ease of playing the RPG without needing to have an encyclopedic knowledge of everything that is possible.<p>
-					The application would be developed so that it would be able to run off portable devices, such as current smartphones and tablet technology, or through a website so that users are 
-					able to develop their own accounts.<br>
-					The application itself would need to reference a database that holds the information. This database could be developed through any referencing software such as SQL or reference of 
-					files or functions through use of dictionaries in python.<br> 
-					In addition to this there would also need to be the interaction side of the application. This would involve the use of programming languages in which you are able to display modular 
-					components and from there allow for user interaction through smaller pop-up menus.<p>
-					The application would involve 4 main areas. 
-					A database with all information necessary within the RPG of D&D. This would include weapons, spells, listed items as well as all beasts and monsters.
-					A component based towards characters that the players use during the campaign session. This would allow for manipulation of statistics and characteristics associated with the 
-					character as well as displaying vital character traits and abilities that can be easily called upon for efficient recall of information.<br>
-					The display component or the interface in which players will be able to view the information about their character as well as change or alter information as the campaign progresses. 
-					Another area for the GM or Game master in which they are able to easily store the information for separate encounters and be able to call upon information in an efficient fashion to 
-					allow for ease of play.<br>
-					The skills and languages that are required to do this will have to be further investigated before settling on a language to move forward with.<p>
-					The final project will allow for players and GMs to put the time into their characters, NPCs (Non Player Characters) and encounters. Record all this information and call upon it 
-					easily while in a campaign session.<br>
-					The efficient recall, display and ability to alter figures for a called upon listed features allows for a more streamlined or less interrupted session for players and GMs. 
-					Although time will be required to be able to properly use the full application the problem of constant distraction due to being forced to take breaks and breaking your concentration could be solved.<br>
-					The further development and incorporation of future updates that provide new features will allow for this experience to be heightened creating a more enjoyable D&D experience.
-				</div>
-			</div>
-		</body>
-        </head>
-    </html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+      <style>
+      #wrapper01{
+        background-color:chocolate;
+        height:500px;
+        width:900px;
+        margin:auto;
+        padding:10px;
+      }
+      #myPic{
+        height:200px;
+        width:200px;
+        float:left;
+        padding:25px;
+      }
+      #subText{
+        float:left;
+        padding:10px;
+        font-size:10px;
+      }
+      #headerText{
+        float:left;
+        padding:25px;
+        font-size:20px;
+      }
+      #basicBackground{
+        background-color:crimson;
+        height:350px;
+        width:900px;
+        margin:auto;
+        padding:20px;
+      }
+      #basicBackgroundText{
+        padding:25px;
+        font-size:20px;
+		  }
+      #iT{
+        background-color:darkcyan;
+        height:900px;
+        width:900px;
+        margin:auto;
+        padding:30px;
+      }
+      #iTText{
+        padding:25px;
+        font-size:20px;
+      }
+      #idealJob{
+        background-color:darkorange;
+        height:850px;
+        width:900px;
+        margin:auto;
+        padding:40px;
+      }
+      #idealJobText{
+        padding:25px;
+        font-size:20px;
+		  }
+		  #personalProfile{
+        background-color:gold;
+        height:700px;
+        width:900px;
+        margin:auto;
+		    padding:50px;
+      }
+      #personalProfileText{
+        padding:25px;
+        font-size:20px;
+      }
+      #projectIdea{
+        background-color:mediumseagreen;
+        height:2050px;
+        width:900px;
+        margin:auto;
+        padding:60px;
+      }
+      #projectIdeaText{
+        padding:25px;
+        font-size:20px;
+		  }
+      </style>
+      <body>
+        <div id = wrapper01>
+          <IMG id=myPic src="data:image/jpeg;base64,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">
+          </IMG><br>
+          <div id=subText>
+            I really like this picture of me. DON'T JUDGE<p>
+          </div>
+          <div id=headerText>
+            PERSONAL INFORMATION<br>
+            Name: Sean William Delany<br>
+            Student Number: S3863566<br>
+            Email Address: s3863566@student.rmit.edu.au<p>
+            FUN FACT<br>
+            When I played beach volleyball I was called the phantom of the opera because I would always get sand on half my face.<p>
+          </div>
+        </div>
+        <div id=basicBackground>
+          <div id=basicBackgroundText>
+            BASIC BACKGROUND<p>
+            I’m Sean as simple as it sounds, born and raised in Melbourne and have basically been raised off the amazing food of 
+            Melbourne cafes, restaurants and bars. My parents were born and raised here as well and it eventually goes all the way back to Ireland, Scotland, and France.<br> 
+            I’ve previously studied a Bachelor of Science / Science Education through La Trobe University and have taught for three years in different schools. 
+            After noticing issues that weren’t going to change themselves any time soon I decided to find myself a job with a lower workload and get back to my studies, 
+            where I could learn I.T. Then try and make a difference to those issues that are ever present in teaching.
+            I’m a simple monolingual only speaking english. When I recently went travelling for a few months I thought that would be at a major disadvantage. 
+            But after travelling and getting a quick experience of some of Europe, I can say that it isn’t an issue and that there will always be a lot of people 
+            out there who are always willing to help you out however they can.<p>
+          </div>
+        </div>
+        <div id=iT>
+          <div id=iTText>
+            IT<p>
+            Why sacrifice my life to IT? My friends sometimes ask.<br>
+            Over time I have been able to learn what different programming languages are able to do and what they are capable of. 
+            Gaming development, data storage, analysis programs, communication programs and abilities have shown amazing changes to the world. 
+            When I realised that anyone is able to learn how to create these programs I’ve wanted to get myself a better understanding. 
+            Ideas have slowly started coming to me about how to make the things I enjoy better and in order to make those ideas a reality I need and want to learn these new ways of thinking and develop my skills.<p>
+            My first real exposure to any form of coding or programming didn’t occur until I was taking my final year of university. 
+            When I realised what MATLAB was capable of it relieved so much stress in regards to learning the material. It calculated 
+            answers running through several functions and gave diagram outputs that allowed the materials to be so easily understood.
+            After that i started experimenting with what i could do instantly shortening code and generating text files with my functions so that no script was too crowded. 
+            A few colleagues noticed and started critiquing my methods in what works better with file names. After mentioning that I was a complete novice they said that they 
+            wouldn’t have believed it after seeing my work. 
+            So I decided to put more time into coding and programming when I could. Since then I haven't been as successful as I keep making excuses, but when a friend has a difficult 
+            problem I always help them out and try to learn as much as I can at the same time.<p>
+            I haven’t worked in an IT related role.<br> 
+            Over the past 3-4 years I have gone through different online modules that teach various parts of different coding languages. I found it really helpful in just learning the 
+            language as well as learning how different operations can be used together and produce functions that greatly simplify processes that I have found quite difficult while studying Maths and Physics.<p>
+            After previously studying at La Trobe. Although it was a great experience it was clear that the university wouldn’t change quickly enough in such a way to let me feel like the student mattered.
+            My friends and other people have shared their RMIT experiences as I have shared my La Trobe experiences. I noticed that the resources that had been lost or weren’t present at La Trobe are there at RMIT. 
+            If I struggle there are resources and people that can be reached to and they can help and that lets me feel safer and grounded while doing this degree.<p>
+            After hearing all of those great experiences from the people who have studied at LaTrobe I don’t just expect to learn the basics that make up the course in the degree. 
+            I also expect to learn the ways of thinking and taking on a new mindset that helps making coding and programming a better experience.<p>
+          </div>
+        </div>
+        <div id=idealJob>
+          <div id=idealJobText>
+            IDEAL JOB<p>
+            <a href='https://www.seek.com.au/job/50024025?type=standout#searchRequestToken=36c664c7-c37b-4641-a4f7-e9f2003035fd'>Ideal job within the IT industry</a><p>
+            <a href='https://drive.google.com/file/d/1iJpyi93UXsYWWIg-rPJd2md3s8_QOJFB/view?usp=sharing'>pic1</a><p>
+            <a href='https://drive.google.com/file/d/1Odrzx93AEJVrMzrjXZbpx4V7yiCX18aT/view?usp=sharing'>pic2</a><p>
+            The job role outlines the development of applications and software using previous information and data to create a better hospital experience as well as a better environment for staff and patients. 
+            This also involves updating and improving software when new issues or feedback arise. The further analysis of data and improvement will hopefully lead to a system allowing patients to feel better 
+            looked after and easier treatments to occur to them.<p>
+            Aside from the experience required experience of 5 years. There are also many coding languages that need to be known, as well as database query languages. These are HTML, CSS, SQL, 
+            as well as experience microsoft systems and C#.<br> 
+            From there further experience and knowledge is required in regards to extending the generated software out to use on other devices. This will include experience in app development 
+            and its associated framework languages as well development and knowledge in networking and communication programming methods.<p>
+            At the moment I have minimal experience in the development of websites and database query software such as SQL. In regards to dealing with external clients and other teams i have a 
+            lot of experience in ensuring information is clearly communicated leading to minimal misinterpretation as well as development of clear lines of communication creating a more general openness within a 
+            team environment.<p>
+            In order to get these skills one big step to acquiring these skills is to complete this degree as well as selecting the appropriate streams leading to developing skills in the correct areas. 
+            I will also be able to develop my own ideas over time and generate them to be viewed in different formats, mainly referring to app development at this current stage. 
+            Once I am at a level in which I am able to start working in some branch of the I.T. Industry the next step is to find a job role in which I am able to apply my skills and ensure 
+            that they are acceptable within a workplace environment. From there I will be able to develop and hopefully seek new opportunities that allow me to fill in any gaps of knowledge 
+            that are still present before moving to a position or job role similar to the one listed above.<p>
+          </div>
+        </div>
+        <div id=personalProfile>
+          <div id=personalProfileText>
+            PERSONAL PROFILE<p>
+            <a href='https://www.16personalities.com/free-personality-test'>Myers-Briggs Test</a><p>
+            <a href='https://www.16personalities.com/infp-personality'>Myers-Briggs Personality Type Result</a><p>
+            <a href='https://www.how-to-study.com/learning-style-assessment/'>Learning Style Test</a><p>
+            <a href='https://www.how-to-study.com/study-skills-articles/visual-learner.asp'>Learing Style Test Result</a><p>
+            <a href='https://www.mindtools.com/pages/article/creativity-quiz.htm'>Creativity Test</a><p>
+            The Myers-Briggs Test and the Mindtools creativity tests show similar features when it comes to attitudes, behaviours and outlooks towards the workplace. 
+            The creative mindset has a mind that wants to view current tools in a new light and determine new approaches in regards to how they can be used. Want to find the cause of issues and 
+            develop a solution to the entire issue, not just the quick fix solution. 
+            The mediator personality leans itself towards ensuring cohesiveness within a team and supporting team members in the best ways possible from a team member or managerial position. It 
+            wants to avoid high pressure situation and devote itself to larger projects where coworkers are able to discuss issues and ideas face to face.<p> 
+            The visual learning style involves the use of generating diagrams and listing the information in ways that it can be easily referenced and referred to other parts of noted materials 
+            through highlighting or making it part of the diagrams.<p>
+            These traits show attributes for a someone in the workplace who is able to understand others as well as interpret their issues and find solutions and develop a stronger, calmer workplace. 
+            With a worker that is able to commit to a task while keeping their eye on the bigger picture of the overall project. In addition to making notes and processing information in a visual 
+            fashion, this allows for different methods of interpreting information as well as presenting and explaining information.<p>
+          </div>
+        </div>
+        <div id=projectIdea>
+          <div id=projectIdeaText>
+            PROJECT IDEA<p>
+            The project is an app or program for D&D (Dungeons and Dragons) characters and will keep track of information about a character. There are several areas of characters in this RPG (Role Playing Game). 
+            These areas involve the characters race/species, class/chosen role in the team, basic statistics, physical fighting abilities, spell based fighting abilities. In addition to this there are also 
+            special tool based skills and the items a character carries and uses.<br> 
+            Keeping track is difficult sometimes and adapting this to the way people view comments on forums has the ability to make it much easier to go through their own character materials and information.<p>
+            I’ve been playing this game for sometime and have been introduced to a large community that really enjoys this RPG based and all that it has to offer. 
+            When you generate your own character there is a lot of information that a new player has to go through. To start at the bare minimum one needs to understand their characters race specifics, class 
+            specifics, special skills in various checks and with different tools. There are also different languages that your character may know as well as spells, and other skills and abilities their 
+            character will gain as they level up during the RPG campaign.<br> 
+            Also thanks to everyone having their own jobs scheduling issues it’s normal for groups to not meet up for weeks or months at a time. This normally means losing character materials or just 
+            simply forgetting what had previously occurred.<p>
+            The D&D application will allow players to store multiple characters that are used across various campaigns. These profiles will be accessible at any time allowing players to change their 
+            characters whenever needed.<br> 
+            The main appeal of having all the character information in one place and being able to store any information about a character in an easily accessible format is that sessions for any 
+            campaign are prone to having large time gaps between them.<br> 
+            Many people struggle with organisation of their own materials and keeping track of them due to people using this as an outlet and a chance to relax and enjoy something outside of work. 
+            The application would allow the full development of a character profile that contains all necessary information, the ability to alter it when necessary and taking notes where the player 
+            is able to possibly customise them as they see fit.<br>
+            The different areas would include a list of basic character statistics, melee combat options, spell based options, spell slots, inventory, abilities, traits, notes, day to day requirements 
+            and various rest/reset options.<br>
+            The statistics component would show the scores out of 20 in 6 areas of character skills as well as how that affects associated checks and saves made through the game. This will show 
+            health points, defensive scores, healing dice, level, speed. The extension of this will also show values that are added to specific checks in given situations.<br>
+            The traits and abilities characters gain depending on their class, level and race will also automatically be added to a specific part of the application and will make the appropriate 
+            updates to other parts of the character profile when necessary. Due to the complexities this RPG can present an automatic update and log of changes across levels allows for a simpler method of 
+            keeping track of what a character is capable of as well as what and why these changes have occurred.<br> 
+            The spells component requires a complete listing of spells and then a refined selection depending on the class or race of the character. From there a player can select which spells 
+            they have prepared and the application will advise when they may be changed. In addition to this when a player casts a spell the application will advise possible options for casting 
+            as well as any other potential selections that can be made.<br>
+            This assists in moving through these phases of a session in a simple step by step process without needing an encyclopedic memory of what you can do in the session. 
+            The melee and inventory components can be considered very similar in nature. They will both show lists of what is available with additional markings showing what you character is 
+            better used to. The inventory component will have the same listings and the player will be able to select them, these items will be placed wherever necessary in the application again 
+            allowing for an ease of playing sessions. Once again these components allow for an ease of playing the RPG without needing to have an encyclopedic knowledge of everything that is possible.<p>
+            The application would be developed so that it would be able to run off portable devices, such as current smartphones and tablet technology, or through a website so that users are 
+            able to develop their own accounts.<br>
+            The application itself would need to reference a database that holds the information. This database could be developed through any referencing software such as SQL or reference of 
+            files or functions through use of dictionaries in python.<br> 
+            In addition to this there would also need to be the interaction side of the application. This would involve the use of programming languages in which you are able to display modular 
+            components and from there allow for user interaction through smaller pop-up menus.<p>
+            The application would involve 4 main areas. 
+            A database with all information necessary within the RPG of D&D. This would include weapons, spells, listed items as well as all beasts and monsters.
+            A component based towards characters that the players use during the campaign session. This would allow for manipulation of statistics and characteristics associated with the 
+            character as well as displaying vital character traits and abilities that can be easily called upon for efficient recall of information.<br>
+            The display component or the interface in which players will be able to view the information about their character as well as change or alter information as the campaign progresses. 
+            Another area for the GM or Game master in which they are able to easily store the information for separate encounters and be able to call upon information in an efficient fashion to 
+            allow for ease of play.<br>
+            The skills and languages that are required to do this will have to be further investigated before settling on a language to move forward with.<p>
+            The final project will allow for players and GMs to put the time into their characters, NPCs (Non Player Characters) and encounters. Record all this information and call upon it 
+            easily while in a campaign session.<br>
+            The efficient recall, display and ability to alter figures for a called upon listed features allows for a more streamlined or less interrupted session for players and GMs. 
+            Although time will be required to be able to properly use the full application the problem of constant distraction due to being forced to take breaks and breaking your concentration could be solved.<br>
+            The further development and incorporation of future updates that provide new features will allow for this experience to be heightened creating a more enjoyable D&D experience.
+          </div>
+        </div>
+      </body>
+    </head>
+  </html>
